@@ -1,0 +1,357 @@
+.category,
+.color,
+.stockStatus,
+.tags,
+.type,
+.weight {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.weightParent {
+  width: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px 0;
+}
+.div,
+.green,
+.organic,
+.vegetables {
+  position: relative;
+  line-height: 150%;
+  z-index: 1;
+}
+.span {
+  color: var(--gray-scale-gray-400);
+}
+.available5413,
+.healthy,
+.vegetables1 {
+  position: relative;
+  line-height: 150%;
+  z-index: 1;
+}
+.healthy {
+  z-index: 2;
+}
+.vegetablesParent {
+  flex-direction: row;
+  color: var(--gray-scale-gray-500);
+}
+.frameDiv,
+.parent,
+.vegetablesParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent {
+  flex-direction: column;
+  gap: 12px 0;
+  color: var(--gray-scale-gray-600);
+}
+.frameDiv {
+  flex-direction: row;
+}
+.chinese1 {
+  text-decoration: underline;
+}
+.chinese {
+  position: relative;
+  line-height: 150%;
+  z-index: 3;
+}
+.chineseWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-146xl) 0 0;
+}
+.cabbage {
+  position: relative;
+  line-height: 150%;
+  z-index: 4;
+}
+.cabbageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-146xl) 0 0;
+  color: var(--gray-scale-gray-500);
+}
+.greenCabbage {
+  position: relative;
+  line-height: 150%;
+  z-index: 5;
+}
+.frameContainer,
+.greenCabbageWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.greenCabbageWrapper {
+  flex-direction: column;
+  padding: var(--padding-146xl) 0 0;
+  color: var(--gray-scale-gray-500);
+}
+.frameContainer {
+  flex-direction: row;
+  min-width: 513px;
+  row-gap: 20px;
+  max-width: 100%;
+}
+.priceTag1Icon,
+.videoIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.videoIcon {
+  align-self: stretch;
+  height: 300px;
+  max-width: 100%;
+}
+.priceTag1Icon {
+  height: 32px;
+  width: 32px;
+}
+.discount,
+.saveYour64 {
+  position: relative;
+  line-height: 150%;
+}
+.discount {
+  font-weight: 500;
+}
+.saveYour64 {
+  font-size: var(--font-size-smi);
+  color: var(--gray-scale-gray-500);
+}
+.feature1,
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px 0;
+}
+.feature1 {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 8px;
+}
+.leaf1Icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.organic1,
+.organicVegetables {
+  position: relative;
+  line-height: 150%;
+}
+.organic1 {
+  font-weight: 500;
+}
+.organicVegetables {
+  align-self: stretch;
+  font-size: var(--font-size-smi);
+  color: var(--gray-scale-gray-500);
+}
+.feature,
+.feature2,
+.info1 {
+  display: flex;
+  justify-content: center;
+}
+.info1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px 0;
+}
+.feature,
+.feature2 {
+  flex-direction: row;
+  align-items: center;
+}
+.feature2 {
+  flex: 1;
+  gap: 0 8px;
+  min-width: 149px;
+}
+.feature {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--gray-scale-white);
+  border: 1px solid var(--gray-scale-gray-100);
+  padding: var(--padding-5xl) 19px;
+  gap: 0 30px;
+}
+.frameGroup,
+.videoParent {
+  display: flex;
+  max-width: 100%;
+}
+.videoParent {
+  width: 537px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 24px 0;
+  min-width: 537px;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.relatedProducts {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.headerFrame,
+.heading1,
+.product4xParent {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.heading1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.headerFrame,
+.product4xParent {
+  justify-content: flex-start;
+}
+.product4xParent {
+  display: grid;
+  flex-direction: row;
+  gap: 0 24px;
+  grid-template-columns: repeat(4, minmax(234px, 1fr));
+}
+.headerFrame {
+  display: flex;
+  flex-direction: column;
+  gap: 32px 0;
+  font-size: var(--heading-05-heading-05-600-size);
+}
+.frameParent,
+.headingInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1320px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 80px 0;
+}
+.headingInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--gray-scale-gray-900);
+  font-family: var(--body-small-body-small-400);
+}
+.heading,
+.productsDetailsAdditionalIn {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heading {
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  max-width: 100%;
+}
+.productsDetailsAdditionalIn {
+  height: 2575px;
+  position: relative;
+  background-color: var(--gray-scale-white);
+  overflow: hidden;
+  flex-direction: row;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .frameContainer,
+  .videoParent {
+    flex: 1;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .product4xParent {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(234px, 406px));
+  }
+  .productsDetailsAdditionalIn {
+    height: auto;
+    min-height: 2575;
+  }
+}
+@media screen and (max-width: 925px) {
+  .frameContainer {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .feature {
+    flex-wrap: wrap;
+  }
+  .videoParent {
+    min-width: 100%;
+  }
+  .relatedProducts {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+  .headerFrame {
+    gap: 16px 0;
+  }
+  .frameParent {
+    gap: 40px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .relatedProducts {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .heading1 {
+    gap: 0 553px;
+  }
+  .product4xParent {
+    grid-template-columns: minmax(234px, 1fr);
+  }
+  .frameParent {
+    gap: 20px 0;
+  }
+}

@@ -1,0 +1,233 @@
+.socialMediaFrames {
+  height: 32px;
+  width: 81.6px;
+  position: relative;
+  min-height: 32px;
+}
+.companyLogoChild {
+  height: 32px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--gray-scale-gray-100);
+  box-sizing: border-box;
+}
+.mango1Icon {
+  width: 66.9px;
+  min-height: 32px;
+}
+.companyLogoItem,
+.groupIcon,
+.mango1Icon {
+  height: 32px;
+  position: relative;
+}
+.companyLogoItem {
+  width: 1px;
+  border-right: 1px solid var(--gray-scale-gray-100);
+  box-sizing: border-box;
+}
+.groupIcon {
+  width: 59.9px;
+  min-height: 32px;
+}
+.companyLogoInner {
+  width: 1px;
+  border-right: 1px solid var(--gray-scale-gray-100);
+  box-sizing: border-box;
+}
+.companyLogoInner,
+.foodIcon,
+.lineDiv {
+  height: 32px;
+  position: relative;
+}
+.foodIcon {
+  width: 82.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 32px;
+}
+.lineDiv {
+  width: 1px;
+  border-right: 1px solid var(--gray-scale-gray-100);
+  box-sizing: border-box;
+}
+.bookoffCorporationLogoIcon {
+  height: 32px;
+  width: 131px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 32px;
+}
+.companyLogoChild1 {
+  height: 32px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--gray-scale-gray-100);
+  box-sizing: border-box;
+}
+.groupIcon1 {
+  height: 32px;
+  width: 95.5px;
+  position: relative;
+  min-height: 32px;
+}
+.companyLogo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-41xl) 0;
+  gap: var(--gap-xl);
+}
+.followUsOn {
+  margin: 0;
+  width: 378px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.textFollowusonInstagram {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.instagramPostIcon,
+.instagramPostIcon1 {
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+}
+.instagramPostIcon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-height: 200px;
+}
+.instagramPostIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+.icons {
+  position: absolute;
+  top: 84px;
+  left: 84px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  z-index: 1;
+}
+.instagramPost {
+  height: 200px;
+  position: relative;
+}
+.instagramPostIcon2,
+.instagramPostIcon3,
+.instagramPostIcon4,
+.instagramPostIcon5 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 200px;
+}
+.followUsOnInstagram,
+.frameNewsletter {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameNewsletter {
+  display: grid;
+  flex-direction: row;
+  gap: 0 24px;
+  grid-template-columns: repeat(6, minmax(150px, 1fr));
+}
+.followUsOnInstagram {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 32px 0;
+}
+.companyLogoParent,
+.homepageInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.companyLogoParent {
+  width: 1320px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.homepageInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--heading-05-heading-05-600-size);
+  color: var(--gray-scale-gray-900);
+  font-family: var(--body-small-body-small-400);
+}
+@media screen and (max-width: 1350px) {
+  .frameNewsletter {
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(150px, 260px));
+  }
+}
+@media screen and (max-width: 925px) {
+  .companyLogoChild,
+  .companyLogoChild1,
+  .companyLogoInner,
+  .companyLogoItem,
+  .lineDiv {
+    width: 100%;
+    height: 1px;
+  }
+  .companyLogo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .followUsOn {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+  .followUsOnInstagram {
+    gap: 16px 0;
+  }
+  .homepageInner {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .followUsOn {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .instagramPostIcon,
+  .instagramPostIcon2,
+  .instagramPostIcon3,
+  .instagramPostIcon4,
+  .instagramPostIcon5 {
+    width: 100%;
+  }
+  .frameNewsletter {
+    grid-template-columns: minmax(150px, 1fr);
+  }
+}

@@ -1,0 +1,106 @@
+.clientTestimonials {
+  margin: 0;
+  width: 313px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.aoorwIcon {
+  object-fit: contain;
+}
+.aoorwIcon,
+.aoorwIcon1 {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  min-height: 45px;
+}
+.arrow,
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+.arrow {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 12px;
+}
+.heading {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-281xl);
+  gap: var(--gap-xl);
+}
+.testimonial,
+.testimonials {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.testimonial {
+  width: 1360px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: 0 24px;
+  text-align: left;
+  font-size: var(--body-small-body-small-400-size);
+  color: var(--gray-scale-gray-700);
+}
+.testimonials {
+  align-self: stretch;
+  background-color: var(--gray-scale-gray-50);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-41xl) 0;
+  gap: 32px 0;
+  text-align: center;
+  font-size: var(--heading-05-heading-05-600-size);
+  color: var(--gray-scale-gray-900);
+  font-family: var(--body-small-body-small-400);
+}
+@media screen and (max-width: 1350px) {
+  .heading {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: var(--padding-131xl);
+    padding-right: var(--padding-131xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .clientTestimonials {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+  .heading {
+    padding-left: var(--padding-56xl);
+    padding-right: var(--padding-56xl);
+    box-sizing: border-box;
+  }
+  .testimonials {
+    gap: 16px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .clientTestimonials {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .heading {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .testimonials {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
